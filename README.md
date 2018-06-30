@@ -2,8 +2,11 @@
 Flask Celery RabbitMQ多个服务器部署worker的demo
 ## 环境
 使用两台机器
+
 生产者机器 IP: 192.168.199.133 
+
 worker机器 IP: 192.168.199.185
+
 实际根据情况改写worker.py中的连接IP后运行
 ## 配置RabbitMQ Mac环境
 * 默认情况下5672端口只对localhost开放，更改/usr/local/etc/rabbitmq/rabbitmq-env.conf的NODE_IP_ADDRESS=0.0.0.0
